@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  profile-controller:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-16T12:53:41.75053765Z"
+    description: A Helm chart for Teknoi Profile Controller
+    digest: 54dd1a8462937cb78fe75cc6121050a0fc636b2965ac0c99b4edcc1085af9f11
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.2/profile-controller-0.0.2.tgz
+    version: 0.0.2
+  profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-16T12:53:41.956065044Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: 7929a7a19095a0bf89554c579afa3512692f48ca9e0e6daa4fa9722e6294f775
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.2/profile-plugin-prometheus-0.0.2.tgz
+    version: 0.0.2
+generated: "2026-02-16T12:53:41.956079152Z"
