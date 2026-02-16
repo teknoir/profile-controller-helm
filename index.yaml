@@ -3,6 +3,16 @@ entries:
   profile-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-16T13:08:07.456384265Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 9bb4b7378a9d5c7adb632fbd44776687de466ddfe544dbbbc52831fa8e0fafda
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.3/profile-controller-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-16T12:53:41.75053765Z"
     description: A Helm chart for Teknoi Profile Controller
     digest: 54dd1a8462937cb78fe75cc6121050a0fc636b2965ac0c99b4edcc1085af9f11
@@ -14,6 +24,16 @@ entries:
   profile-plugin-prometheus:
   - apiVersion: v2
     appVersion: v2.47.0
+    created: "2026-02-16T13:08:07.634077599Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: e3b723aca352046171349cb9aeebe940e588d3df4bbb4b94bad4266edff800d2
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.3/profile-plugin-prometheus-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: v2.47.0
     created: "2026-02-16T12:53:41.956065044Z"
     description: A Helm chart for Prometheus used by Profile Controller
     digest: 7929a7a19095a0bf89554c579afa3512692f48ca9e0e6daa4fa9722e6294f775
@@ -22,4 +42,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.2/profile-plugin-prometheus-0.0.2.tgz
     version: 0.0.2
-generated: "2026-02-16T12:53:41.956079152Z"
+generated: "2026-02-16T13:08:07.634093319Z"
