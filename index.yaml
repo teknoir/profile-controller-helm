@@ -3,6 +3,16 @@ entries:
   profile-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-17T12:02:36.052788414Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 2c04c48bc0497f73cb07a4715ad9991fbee947ee21c99fbf541074f99f5a2048
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.6/profile-controller-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-17T09:48:22.574632809Z"
     description: A Helm chart for Teknoir Profile Controller
     digest: 92ab24b8983925b39804e6ccdc6f5c3b67638166c24c08414eca1ad65f7f10b4
@@ -42,6 +52,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.2/profile-controller-0.0.2.tgz
     version: 0.0.2
   profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-17T12:02:36.215773364Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: 75237b5b3550eb115efdf681a138e20d89a3f7193b6d033adbd4dd750ce94665
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.6/profile-plugin-prometheus-0.0.6.tgz
+    version: 0.0.6
   - apiVersion: v2
     appVersion: v2.47.0
     created: "2026-02-17T09:48:22.737649773Z"
@@ -85,6 +105,16 @@ entries:
   user-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-17T12:02:36.356938142Z"
+    description: A Helm chart for user-controller
+    digest: 5a5f0b7f34c56d3e25fae9741a779762c184344d5bac2af2da83edf01fb162eb
+    name: user-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.6/user-controller-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-17T09:48:22.953739822Z"
     description: A Helm chart for user-controller
     digest: 20ba9ef471c0cba7a65939fa0bd16238209474a95a2a2a33bd147e3bd99ae583
@@ -93,4 +123,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-17T09:48:22.953768442Z"
+generated: "2026-02-17T12:02:36.356983397Z"
