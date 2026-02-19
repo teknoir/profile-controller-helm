@@ -3,6 +3,16 @@ entries:
   profile-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T22:41:59.310596425Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 610b09e2cab7cf94eff6d6d8713650753244c89d7b4e69b6b766277b8805f05f
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.13/profile-controller-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T21:39:19.068076645Z"
     description: A Helm chart for Teknoir Profile Controller
     digest: 4faddb4e6eaf672ed2dbf8c2ebb6b0f74faa8563f14a73f6384158794be57f1b
@@ -114,6 +124,20 @@ entries:
   profile-plugin-emqx:
   - apiVersion: v2
     appVersion: v5.8.9
+    created: "2026-02-19T22:41:59.537541098Z"
+    dependencies:
+    - name: emqx
+      repository: https://repos.emqx.io/charts
+      version: 5.8.9
+    description: A Helm chart for EMQX used by Profile Controller
+    digest: 28eb0d27d412eb9c3ff8e350ed88de68b94f2af73c90eb547419362eb7a715cc
+    name: profile-plugin-emqx
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.13/profile-plugin-emqx-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: v5.8.9
     created: "2026-02-19T21:39:19.220839405Z"
     dependencies:
     - name: emqx
@@ -199,6 +223,16 @@ entries:
   profile-plugin-grafana:
   - apiVersion: v2
     appVersion: 12.3.3
+    created: "2026-02-19T22:41:59.74123408Z"
+    description: A Helm chart for Grafana used by Profile Controller
+    digest: 7871d41d284eec0a35c07491a13e6baa9a1e0166ba216ad9d4bd322979e1c727
+    name: profile-plugin-grafana
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-grafana-0.0.13/profile-plugin-grafana-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: 12.3.3
     created: "2026-02-19T21:39:19.362065319Z"
     description: A Helm chart for Grafana used by Profile Controller
     digest: 3a6b99c0ca8a42b52414ec585e57bf5480b4996c0d97fdef150f0cd6b0b0d758
@@ -218,6 +252,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-grafana-0.0.11/profile-plugin-grafana-0.0.11.tgz
     version: 0.0.11
   profile-plugin-mongodb:
+  - apiVersion: v2
+    appVersion: v8.2.1
+    created: "2026-02-19T22:41:59.989169919Z"
+    description: A Helm chart for MongoDB used by Profile Controller
+    digest: 68288047db232155af2b2e2543bc90779d6e1c2e19ea40b7c4463eec08b24b6e
+    name: profile-plugin-mongodb
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-mongodb-0.0.13/profile-plugin-mongodb-0.0.13.tgz
+    version: 0.0.13
   - apiVersion: v2
     appVersion: v8.2.1
     created: "2026-02-19T21:39:19.519769763Z"
@@ -249,6 +293,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-mongodb-0.0.10/profile-plugin-mongodb-0.0.10.tgz
     version: 0.0.10
   profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-19T22:42:00.22262089Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: ec1e077ccb81f59d3fd5f08c87d48b33e4d3ff26f185992f07324a4f4384cf3a
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.13/profile-plugin-prometheus-0.0.13.tgz
+    version: 0.0.13
   - apiVersion: v2
     appVersion: v2.47.0
     created: "2026-02-19T21:39:19.725793219Z"
@@ -362,6 +416,16 @@ entries:
   user-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T22:42:00.447915537Z"
+    description: A Helm chart for user-controller
+    digest: b0e5d55a476980b8b2ac55ad067443d5bb0b43ba15107b81286439274caf89d6
+    name: user-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.13/user-controller-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T21:39:19.87017821Z"
     description: A Helm chart for user-controller
     digest: 3b992c50422209ed4f0ad4d104d513bb15707e95cd6da19eca2e910bfddb59f6
@@ -440,4 +504,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-19T21:39:19.870321705Z"
+generated: "2026-02-19T22:42:00.448107657Z"
