@@ -3,6 +3,16 @@ entries:
   profile-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T17:16:19.102064396Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 7f1b9f74b5a6d388828004c8b251fec440b3a30bb4a1398b32e2a23b6c7b2cd0
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.8/profile-controller-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T16:39:11.560824553Z"
     description: A Helm chart for Teknoir Profile Controller
     digest: 05f3bbfeac831ab7b02bf06efa17d92f399c161b27b059863d6a880497427869
@@ -64,6 +74,20 @@ entries:
   profile-plugin-emqx:
   - apiVersion: v2
     appVersion: v5.8.9
+    created: "2026-02-19T17:16:19.306512608Z"
+    dependencies:
+    - name: emqx
+      repository: https://repos.emqx.io/charts
+      version: 5.8.9
+    description: A Helm chart for EMQX used by Profile Controller
+    digest: 27d76ba28ab36e7f40da55516c2daf4e7ba10036a042e856e1722636f37a29f0
+    name: profile-plugin-emqx
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.8/profile-plugin-emqx-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: v5.8.9
     created: "2026-02-19T16:39:11.746277199Z"
     dependencies:
     - name: emqx
@@ -77,6 +101,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.7/profile-plugin-emqx-0.0.7.tgz
     version: 0.0.7
   profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-19T17:16:19.526942391Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: f565df6fe335311e3bdd3d19edee40a3fbd952b80250a8f0798edbaeead93a98
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.8/profile-plugin-prometheus-0.0.8.tgz
+    version: 0.0.8
   - apiVersion: v2
     appVersion: v2.47.0
     created: "2026-02-19T16:39:11.96227188Z"
@@ -140,6 +174,16 @@ entries:
   user-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T17:16:19.740197251Z"
+    description: A Helm chart for user-controller
+    digest: bd2205a96b2836991325419290c11811fb45cc84f397405c44ce7ac895c1b9b8
+    name: user-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.8/user-controller-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T16:39:12.184598497Z"
     description: A Helm chart for user-controller
     digest: fd65e5a37235904f8e793a2b1ac96e097043c48c0a98d5f262392b59f6e9063c
@@ -168,4 +212,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-19T16:39:12.184662937Z"
+generated: "2026-02-19T17:16:19.740301416Z"
