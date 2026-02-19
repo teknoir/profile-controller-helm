@@ -3,6 +3,16 @@ entries:
   profile-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T20:39:40.809386718Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 5256976518f12685a55159662f5d8d9109fa7ecbc6b93e8b5c5e403a6f0c8179
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.10/profile-controller-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T17:44:25.332075105Z"
     description: A Helm chart for Teknoir Profile Controller
     digest: 5d1f1bcd2fbea33c1dc0fe2d3c62a021ecfa313c5454655ad0df704b8a6f1cd0
@@ -84,6 +94,20 @@ entries:
   profile-plugin-emqx:
   - apiVersion: v2
     appVersion: v5.8.9
+    created: "2026-02-19T20:39:40.972433297Z"
+    dependencies:
+    - name: emqx
+      repository: https://repos.emqx.io/charts
+      version: 5.8.9
+    description: A Helm chart for EMQX used by Profile Controller
+    digest: 6c5a9a4c7203ee92b0635ecdea658fdcbda25d261404c558d996e5eede75dc42
+    name: profile-plugin-emqx
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.10/profile-plugin-emqx-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: v5.8.9
     created: "2026-02-19T17:44:25.517113367Z"
     dependencies:
     - name: emqx
@@ -124,7 +148,28 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.7/profile-plugin-emqx-0.0.7.tgz
     version: 0.0.7
+  profile-plugin-mongodb:
+  - apiVersion: v2
+    appVersion: v8.2.1
+    created: "2026-02-19T20:39:41.098581212Z"
+    description: A Helm chart for MongoDB used by Profile Controller
+    digest: 52c0b9506574dfd5a8feb3dddf9c1fcd1c5b370267e77caa0cb4820bffaedcbe
+    name: profile-plugin-mongodb
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-mongodb-0.0.10/profile-plugin-mongodb-0.0.10.tgz
+    version: 0.0.10
   profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-19T20:39:41.236142599Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: 7ab95fa9bf4e5cb84c1e6c6e6d7f0f63f305bc6d9ab4371ac66aa43b70ce37be
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.10/profile-plugin-prometheus-0.0.10.tgz
+    version: 0.0.10
   - apiVersion: v2
     appVersion: v2.47.0
     created: "2026-02-19T17:44:25.670919661Z"
@@ -208,6 +253,16 @@ entries:
   user-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-19T20:39:41.377362478Z"
+    description: A Helm chart for user-controller
+    digest: b5c70bd597c3f25beedb93aa125d80896b6d633636f6d17a474043bc92e06257
+    name: user-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.10/user-controller-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-19T17:44:25.851147927Z"
     description: A Helm chart for user-controller
     digest: f35f59d3fe4bad9a517aab124595171dd23b499dd768aa28debc2de57fa96a50
@@ -256,4 +311,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-19T17:44:25.85124618Z"
+generated: "2026-02-19T20:39:41.377912321Z"
