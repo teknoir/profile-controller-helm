@@ -24,6 +24,16 @@ entries:
   device-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-20T11:43:33.825649039Z"
+    description: A Helm chart for the Teknoir device-controller
+    digest: 15a4f39d5f6b59bce7508dc9b95c79f6f5cdb1a1696163d34f511c9c9b9b08ea
+    name: device-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/device-controller-0.0.19/device-controller-0.0.19.tgz
+    version: 0.0.19
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-20T11:38:56.290021951Z"
     description: A Helm chart for the Teknoir device-controller
     digest: 4a6ca6c8f5741143dcc456ff5b443e680ef9459cb4261945c8002976eeceb46f
@@ -43,6 +53,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/device-controller-0.0.17/device-controller-0.0.17.tgz
     version: 0.0.17
   profile-controller:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-20T11:43:33.955952262Z"
+    description: A Helm chart for Teknoir Profile Controller
+    digest: 100a7ae832eae78a77a6cb7bff688201686ef1af32a9cc6b0732f3084abb84c9
+    name: profile-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.19/profile-controller-0.0.19.tgz
+    version: 0.0.19
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2026-02-20T11:38:56.536118479Z"
@@ -213,7 +233,32 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-controller-0.0.2/profile-controller-0.0.2.tgz
     version: 0.0.2
+  profile-plugin-deadend:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-02-20T11:43:34.098224784Z"
+    description: HelmChart to deploy the Deadend Bastion resources to a Teknoir Cluster.
+    digest: f168ad331d7abfa84be041c382c9ad2f3265fcf4f757de27ce7e208003ce43fb
+    name: profile-plugin-deadend
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-deadend-0.0.19/profile-plugin-deadend-0.0.19.tgz
+    version: 0.0.19
   profile-plugin-emqx:
+  - apiVersion: v2
+    appVersion: v5.8.9
+    created: "2026-02-20T11:43:34.241634132Z"
+    dependencies:
+    - name: emqx
+      repository: https://repos.emqx.io/charts
+      version: 5.8.9
+    description: A Helm chart for EMQX used by Profile Controller
+    digest: a8f3785593ba653fa468e4492b8e387a67b40e034a3550e5cf7cc3e553bc3481
+    name: profile-plugin-emqx
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-emqx-0.0.19/profile-plugin-emqx-0.0.19.tgz
+    version: 0.0.19
   - apiVersion: v2
     appVersion: v5.8.9
     created: "2026-02-20T11:38:56.766698003Z"
@@ -385,6 +430,16 @@ entries:
   profile-plugin-grafana:
   - apiVersion: v2
     appVersion: 12.3.3
+    created: "2026-02-20T11:43:34.368763809Z"
+    description: A Helm chart for Grafana used by Profile Controller
+    digest: 534eb68e0a0d194ac3aeac842ac4688df55a334876352b0dc4fec85a06725a3c
+    name: profile-plugin-grafana
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-grafana-0.0.19/profile-plugin-grafana-0.0.19.tgz
+    version: 0.0.19
+  - apiVersion: v2
+    appVersion: 12.3.3
     created: "2026-02-20T11:38:56.994127607Z"
     description: A Helm chart for Grafana used by Profile Controller
     digest: 87e985c845ae777c7624b4a339cbbd2a51ed277c8452fc482a8f90813a74a15e
@@ -464,6 +519,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-grafana-0.0.11/profile-plugin-grafana-0.0.11.tgz
     version: 0.0.11
   profile-plugin-mongodb:
+  - apiVersion: v2
+    appVersion: v8.2.1
+    created: "2026-02-20T11:43:34.527334965Z"
+    description: A Helm chart for MongoDB used by Profile Controller
+    digest: 9822c6912c1145a047cdcf3e37bd51fee04484cecdb1cf24aeec33f506926922
+    name: profile-plugin-mongodb
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-mongodb-0.0.19/profile-plugin-mongodb-0.0.19.tgz
+    version: 0.0.19
   - apiVersion: v2
     appVersion: v8.2.1
     created: "2026-02-20T11:38:57.228786415Z"
@@ -555,6 +620,16 @@ entries:
     - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-mongodb-0.0.10/profile-plugin-mongodb-0.0.10.tgz
     version: 0.0.10
   profile-plugin-prometheus:
+  - apiVersion: v2
+    appVersion: v2.47.0
+    created: "2026-02-20T11:43:34.692608122Z"
+    description: A Helm chart for Prometheus used by Profile Controller
+    digest: f1d5ed92d0e22616bde44509b6a522d9ed25479e91e0d33e241e256eefff0d0a
+    name: profile-plugin-prometheus
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/profile-plugin-prometheus-0.0.19/profile-plugin-prometheus-0.0.19.tgz
+    version: 0.0.19
   - apiVersion: v2
     appVersion: v2.47.0
     created: "2026-02-20T11:38:57.464980204Z"
@@ -728,6 +803,16 @@ entries:
   user-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-02-20T11:43:34.82256064Z"
+    description: A Helm chart for the Teknoir user-controller
+    digest: 6abfa2377faf3cdd14249b3a9b18ce2a8e5ae4cbaad06a38d57a04fb34611bc0
+    name: user-controller
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.19/user-controller-0.0.19.tgz
+    version: 0.0.19
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-02-20T11:38:57.697821878Z"
     description: A Helm chart for the Teknoir user-controller
     digest: 4419758821a58aa877e54cf3368917d901c9a72ff9ee2b3a6f939b4d55914c08
@@ -866,4 +951,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-20T11:38:57.698459902Z"
+generated: "2026-02-20T11:43:34.822931502Z"
