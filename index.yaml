@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  deadend:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-02-20T11:35:30.213429309Z"
+    description: HelmChart to deploy the Deadend Bastion resources to a Teknoir Cluster.
+    digest: 046ade3a8f3c7d0cef9e8390158a5c928529dc15cab94fbb3f61f90cb3b0e319
+    name: deadend
+    type: application
+    urls:
+    - https://github.com/teknoir/profile-controller-helm/releases/download/deadend-0.0.17/deadend-0.0.17.tgz
+    version: 0.0.17
   device-controller:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -771,4 +782,4 @@ entries:
     urls:
     - https://github.com/teknoir/profile-controller-helm/releases/download/user-controller-0.0.5/user-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-20T08:19:50.597671385Z"
+generated: "2026-02-20T11:35:30.213605528Z"
